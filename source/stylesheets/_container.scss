@@ -1,0 +1,49 @@
+.container {
+  text-align: center;
+}
+
+.hero-image {
+  background: image-url("main.jpg") fixed no-repeat;
+  background-size: cover;
+  min-height: 590px;
+}
+
+.overlay {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 110px 0 110px;
+  background-color: white;
+  transform: translateY(-50%);
+  line-height: 40px;
+  text-align: center;
+}
+
+  
+.project-preview {
+  width: calc(33.3% - 20px);
+  margin: 0 10px;
+  background: image-url("home.png") no-repeat;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.project-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  background-color: rgba(213, 172, 67, 0.7);
+  text-align: center;
+}
+
+.project-title {
+
+}
+
+.project-info {
+
+}
