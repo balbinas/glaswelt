@@ -59,6 +59,7 @@ h1 {
   font-size: 1.8em;
   font-weight: 400;
   margin: 0;
+  text-align: center;
 }
 
 .wrapped{
@@ -66,6 +67,11 @@ h1 {
   padding-right: calc(50% - 570px);
 }
 
-.inspace {
-  margin-bottom: 75px;
+.head-title {
+  padding: 60px 0 60px 0;
+  border-bottom: lightgrey 1px solid;
+
+  h1 {
+    font-weight: 300;    
+  }
 }
