@@ -3,6 +3,7 @@
 @import "_navbar";
 @import "container";
 @import "jumbotron";
+@import "about";
 @import "footer";
 
 *, *:before, *:after {
@@ -65,13 +66,4 @@ h1 {
 .wrapped{
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
-}
-
-.head-title {
-  padding: 60px 0 60px 0;
-  border-bottom: lightgrey 1px solid;
-
-  h1 {
-    font-weight: 300;    
-  }
 }

@@ -13,7 +13,8 @@
   margin: 0 auto;
   padding: 48px 110px 0 110px;
   background-color: white;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   line-height: 40px;
   text-align: center;
 
@@ -27,6 +28,7 @@
 
   
 .project-preview {
+  float: left;
   width: calc(33.3% - 20px);
   margin: 50px 10px 0px 10px;
   background: image-url("home.png") no-repeat;
@@ -36,12 +38,28 @@
   background-size: cover;
 }
 
+@media (max-width: 900px) {
+  .project-preview {
+    width: calc(100% - 20px);
+  }
+}
+
+
 .project-description {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: white;
   background-color: rgba(213, 172, 67, 0.7);
   text-align: center;
