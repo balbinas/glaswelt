@@ -18,13 +18,36 @@
 .picframe {
   height: 300px;
   background-color: grey;
-  margin: 0 15px 0 15px;
+  margin: 0 15px 15px 15px;
 }
 
-.separate {
+.separate-about {
   width: 70%;
   margin: auto;
   margin-top: 60px;
+  text-align: center;
+}
+
+.separate-ind {
+  width: 85%;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+  color: #545454;
+  vertical-align: middle;
+
+  h3 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  h4 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 24px;
+  }
 }
 
 .justified {
