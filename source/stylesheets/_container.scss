@@ -24,8 +24,11 @@
     text-decoration: none;
     font-weight: 400;
   }
-}
 
+  h2 {
+    font-weight: normal;
+  }
+}
   
 .project-preview {
   float: left;
@@ -43,7 +46,6 @@
     width: calc(100% - 20px);
   }
 }
-
 
 .project-description {
   position: absolute;
@@ -63,12 +65,4 @@
   color: white;
   background-color: rgba(213, 172, 67, 0.7);
   text-align: center;
-}
-
-.project-title {
-
-}
-
-.project-info {
-
 }

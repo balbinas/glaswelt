@@ -1,0 +1,35 @@
+.in-field {
+  border: none;
+  border-bottom: darkgrey solid 1px;
+  color: #545454;
+  width: 60%;
+  line-height: 40px;
+  font-style: italic;
+}
+
+.submit-button {
+  font-size: 24px;
+  width: 60%;
+  padding: 20px;
+  border: none;
+  background-color: white;
+}
+
+.contacto {
+  text-align: center;
+
+  h3 {
+    font-weight: normal;
+    color: #545454;
+  }
+
+  .borderline {
+    border-top: darkgrey solid 1px;
+    width: 285px;
+  }
+
+  .first {
+    font-style: italic;
+    color: darkgrey;
+  }
+}

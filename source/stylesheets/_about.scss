@@ -3,16 +3,30 @@
   border-top: lightgrey 1px solid;
   border-bottom: lightgrey 1px solid;
 
-  h1 {
-    font-weight: 300;    
-  }
 }
 
 .head-subtitle {
   text-align: center;
   line-height: 40px;
-  font-size: 14px;
   color: #545454;
-  width: 50%;
+  width: 80%;
   margin: auto;
+  padding: 60px 0 60px 0;
+  border-bottom: lightgrey 1px solid;
+}
+
+.picframe {
+  height: 300px;
+  background-color: grey;
+  margin: 0 15px 0 15px;
+}
+
+.separate {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.justified {
+  text-align: justify;
 }
