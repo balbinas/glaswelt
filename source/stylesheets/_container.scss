@@ -39,6 +39,11 @@
   position: relative;
   overflow: hidden;
   background-size: cover;
+  &:hover {
+    .project-description {
+      opacity: 1;
+    }
+  }
 }
 
 @media (max-width: 900px) {
@@ -48,6 +53,7 @@
 }
 
 .project-description {
+  padding: 0 50px;
   position: absolute;
   top: 0;
   left: 0;
@@ -63,6 +69,26 @@
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
-  background-color: rgba(213, 172, 67, 0.7);
+  background-color: rgba(95, 114, 59, 0.85);
   text-align: center;
+  transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  opacity: 0;
+  line-height: 35px;
+
+  h3, h4 {
+    font-family: "muli", sans-serif;
+    font-weight: lighter;
+  }
+
+  .location {
+    border-top: 1px solid white;
+  }
+}
+
+.project-info {
+  font-size: 22px;
+  font-family: "playfair", serif;
 }

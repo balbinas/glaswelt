@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import "normalize";
+@import "typography";
 @import "navbar";
 @import "container";
 @import "jumbotron";
@@ -51,19 +52,17 @@
 
 body {
   background: white;
-  /*font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "Times", Georgia, Serif;
+  font-family: "playfair", serif;
   font-size: 1em;
 
   a {
-      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "muli", sans-serif;
   }
 }
 
 h1 {
   color: #545454;
   font-size: 30px;
-/*font-family: "Times", Georgia, Serif;  font-size: 1.8em;*/
   font-weight: 400;
   margin: 0;
   text-align: center;
